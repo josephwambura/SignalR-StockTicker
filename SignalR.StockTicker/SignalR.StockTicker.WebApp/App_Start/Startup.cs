@@ -1,8 +1,8 @@
 ﻿using Owin;
 
-namespace Microsoft.AspNet.SignalR.StockTicker.WebApp
+namespace SignalR.StockTicker.WebApp
 {
-    public static class Startup
+    public partial class Startup
     {
         public static void ConfigureSignalR(IAppBuilder app)
         {
