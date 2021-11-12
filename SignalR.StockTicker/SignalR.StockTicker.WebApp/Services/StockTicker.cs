@@ -118,7 +118,9 @@ namespace SignalR.StockTicker.WebApp.Services
             {
                 new Stock { Symbol = "MSFT", Price = 41.68m },
                 new Stock { Symbol = "AAPL", Price = 92.08m },
-                new Stock { Symbol = "GOOG", Price = 543.01m }
+                new Stock { Symbol = "GOOG", Price = 543.01m },
+                new Stock { Symbol = "PYCS", Price = 23.01m },
+                new Stock { Symbol = "MATDE", Price = 783.01m }
             };
 
             stocks.ForEach(stock => _stocks.TryAdd(stock.Symbol, stock));
