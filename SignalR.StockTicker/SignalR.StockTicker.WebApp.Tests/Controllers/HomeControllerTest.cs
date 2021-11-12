@@ -26,6 +26,19 @@ namespace SignalR.StockTicker.WebApp.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+        
+        [TestMethod]
+        public void StockTicker()
+        {
+            // Arrange
+            HomeController controller = new HomeController();
+
+            // Act
+            ViewResult result = controller.StockTicker() as ViewResult;
+
+            // Assert
+            Assert.IsNotNull(result);
+        }
 
         [TestMethod]
         public void About()

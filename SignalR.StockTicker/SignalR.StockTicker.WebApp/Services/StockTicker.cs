@@ -3,9 +3,14 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading;
 
+using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
 
-namespace Microsoft.AspNet.SignalR.StockTicker
+using SignalR.StockTicker.WebApp.Models;
+using SignalR.StockTicker.WebApp.SignalRHubs;
+using SignalR.StockTicker.WebApp.Utils;
+
+namespace SignalR.StockTicker.WebApp.Services
 {
     public class StockTicker
     {
@@ -185,11 +190,5 @@ namespace Microsoft.AspNet.SignalR.StockTicker
         {
             Clients.All.updateStockPrice(stock);
         }
-    }
-
-    public enum MarketState
-    {
-        Closed,
-        Open
     }
 }
