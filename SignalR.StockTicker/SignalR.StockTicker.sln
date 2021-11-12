@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.StockTicker", "SignalR.StockTicker\SignalR.StockTicker.csproj", "{F0351CF4-1A9D-4FE1-8B52-7015725AB46D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.StockTicker.WebApp", "SignalR.StockTicker.WebApp\SignalR.StockTicker.WebApp.csproj", "{A0665844-95D9-41AB-93D5-7C2E21DF650C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.StockTicker.WebApp.Tests", "SignalR.StockTicker.WebApp.Tests\SignalR.StockTicker.WebApp.Tests.csproj", "{0A168197-7456-4F9A-A102-E89901A37C7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{F0351CF4-1A9D-4FE1-8B52-7015725AB46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0351CF4-1A9D-4FE1-8B52-7015725AB46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0351CF4-1A9D-4FE1-8B52-7015725AB46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0665844-95D9-41AB-93D5-7C2E21DF650C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0665844-95D9-41AB-93D5-7C2E21DF650C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0665844-95D9-41AB-93D5-7C2E21DF650C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0665844-95D9-41AB-93D5-7C2E21DF650C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A168197-7456-4F9A-A102-E89901A37C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A168197-7456-4F9A-A102-E89901A37C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A168197-7456-4F9A-A102-E89901A37C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A168197-7456-4F9A-A102-E89901A37C7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {403D420A-FC36-41F6-A672-672BA8B8A066}
 	EndGlobalSection
 EndGlobal
